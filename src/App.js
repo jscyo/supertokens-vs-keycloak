@@ -8,7 +8,7 @@ import {
 import SuperTokens, { getSuperTokensRoutesForReactRouterDom } from "supertokens-auth-react"
 import ThirdPartyEmailPassword, { ThirdPartyEmailPasswordAuth, Github, Google, Facebook } from "supertokens-auth-react/recipe/thirdpartyemailpassword"
 import Session from "supertokens-auth-react/recipe/session"
-
+console.log("comes here")
 SuperTokens.init({
   appInfo: {
     appName: "SuperTokens Demo App",

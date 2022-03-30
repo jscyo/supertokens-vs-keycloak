@@ -11,9 +11,7 @@ jobs:
           go-version: '^1.17'
       - run: go version
       - uses: actions/checkout@v3
-        with: 
-          repository: supertokens/supertokens-golang
-          ref: master
-      - run: cd supertokens-golang && ls
+      - run: ls
+      
 
     

@@ -4,6 +4,7 @@ jobs:
   hello_world_job:
     runs-on: ubuntu-latest
     name: setup checkout action
+    steps:
      - uses: actions/checkout@v3
     name: Check if go mod tidy is run
     steps:

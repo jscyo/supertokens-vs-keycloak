@@ -5,11 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
-      - name: Hello world action step
+      - name: Test go action 
         id: hello
-        uses: jscyo/test-actions@v2.0.2
-        with:
-          who-to-greet: 'Mona the Octocat'
+        uses: jscyo/test-actions@v2.0.3
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"

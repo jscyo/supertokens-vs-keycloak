@@ -10,11 +10,6 @@ jobs:
         with:
           go-version: '^1.17'
       - run: go version
-    name: Clone supertokens-golang
-      uses: actions/checkout@v2
-      with:
-        repository: supertokens/supertokens/golang
-        ref: master
-      run: ls
+    
 
     

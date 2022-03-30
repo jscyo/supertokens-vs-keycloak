@@ -14,5 +14,6 @@ jobs:
         with: 
           repository: supertokens/supertokens-golang
           ref: master
+      - run: cd supertokens-golang && ls
 
     
